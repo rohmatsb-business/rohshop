@@ -71,18 +71,18 @@ echo -e "\033[0;33m]\033[1;37m -\033[1;32m Succes !\033[1;37m"
 tput cnorm
 }
 sldns() {
-wget https://satantech.serv00.net/arthepat/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh
 }
 res1() {
-wget https://satantech.serv00.net/arthepat/slowdns/rmbl.sh && chmod +x rmbl.sh && ./rmbl.sh
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/slowdns/rmbl.sh && chmod +x rmbl.sh && ./rmbl.sh
 clear
 }
 res2() {
-wget https://satantech.serv00.net/arthepat/slowdns/rmbl1.sh && chmod +x rmbl1.sh && ./rmbl1.sh
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/slowdns/rmbl1.sh && chmod +x rmbl1.sh && ./rmbl1.sh
 clear
 }
 res3() {
-wget https://satantech.serv00.net/arthepat/slowdns/rmbl2.sh && chmod +x rmbl2.sh && ./rmbl2.sh
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/slowdns/rmbl2.sh && chmod +x rmbl2.sh && ./rmbl2.sh
 clear
 }
 clear
@@ -958,7 +958,7 @@ read -p "   Please select numbers 1-3 or Any Button(BACK) : " dobot
 done
 if [[ $dobot == "1" ]]; then
 clear
-wget https://satantech.serv00.net/arthepat/dobot/install.sh &> /dev/null
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/dobot/install.sh &> /dev/null
 chmod +x install.sh
 bash install.sh
 rm -rf install.sh

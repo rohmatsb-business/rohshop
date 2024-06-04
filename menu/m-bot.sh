@@ -36,13 +36,13 @@ apt install python3-pip
 sudo apt-get install -y p7zip-full
 cd /usr/bin
 clear
-wget https://satantech.serv00.net/arthepat/bot/bot.zip
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/bot/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 clear
-wget https://satantech.serv00.net/arthepat/bot/kyt.zip
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/bot/kyt.zip
 unzip kyt.zip
 pip3 install -r kyt/requirements.txt
 clear
@@ -129,13 +129,13 @@ systemctl enable kyt &> /dev/null
 systemctl start kyt &> /dev/null
 systemctl restart kyt &> /dev/null
 
-wget -q -O /usr/bin/addtrgo "https://satantech.serv00.net/arthepat/trgo/addtrgo.sh" && chmod +x /usr/bin/addtrgo
+wget -q -O /usr/bin/addtrgo "https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/trgo/addtrgo.sh" && chmod +x /usr/bin/addtrgo
 
-wget -q -O /usr/bin/deltrgo "https://satantech.serv00.net/arthepat/trgo/deltrgo.sh" && chmod +x /usr/bin/deltrgo
+wget -q -O /usr/bin/deltrgo "https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/trgo/deltrgo.sh" && chmod +x /usr/bin/deltrgo
 
-wget -q -O /usr/bin/cektrgo "https://satantech.serv00.net/arthepat/trgo/cektrgo.sh" && chmod +x /usr/bin/cektrgo
+wget -q -O /usr/bin/cektrgo "https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/trgo/cektrgo.sh" && chmod +x /usr/bin/cektrgo
 
-wget -q -O /usr/bin/renewtrgo "https://satantech.serv00.net/arthepat/trgo/renewtrgo.sh" && chmod +x /usr/bin/renewtrgo
+wget -q -O /usr/bin/renewtrgo "https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/trgo/renewtrgo.sh" && chmod +x /usr/bin/renewtrgo
 
 echo "Done"
 echo " Installations complete, type /menu on your bot"
@@ -223,13 +223,13 @@ rm -rf /usr/bin/kyt.zip
 rm -rf /usr/bin/kyt
 sleep 2
 cd /usr/bin
-wget https://satantech.serv00.net/arthepat/bot//bot.zip
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/bot//bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 clear
-wget https://satantech.serv00.net/arthepat/bot//kyt.zip
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/bot//kyt.zip
 unzip kyt.zip
 cd kyt
 pip3 install -r kyt/requirements.txt

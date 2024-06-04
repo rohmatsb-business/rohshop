@@ -2,9 +2,9 @@
 # Proxy For Edukasi & Imclass
 
 # Link Hosting Kalian
-SFVPN="https://satantech.serv00.net/arthepat/install"
+SFVPN="https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/install"
 
-wget -O /usr/local/bin/ws-dropbear https://satantech.serv00.net/arthepat/sshws/ws-dropbear
+wget -O /usr/local/bin/ws-dropbear https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/sshws/ws-dropbear
 chmod +x /usr/local/bin/ws-dropbear
 
 # Installing Service
@@ -32,7 +32,7 @@ systemctl enable ws-dropbear.service
 systemctl start ws-dropbear.service
 systemctl restart ws-dropbear.service
 
-wget -O /usr/local/bin/ws-ovpn https://satantech.serv00.net/arthepat/sshws/ws-ovpn.py
+wget -O /usr/local/bin/ws-ovpn https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/sshws/ws-ovpn.py
 chmod +x /usr/local/bin/ws-ovpn
 
 # Installing Service
@@ -59,7 +59,7 @@ systemctl daemon-reload
 systemctl enable ws-ovpn
 systemctl restart ws-ovpn
 
-wget -O /usr/local/bin/ws-stunnel https://satantech.serv00.net/arthepat/sshws/ws-stunnel
+wget -O /usr/local/bin/ws-stunnel https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/sshws/ws-stunnel
 chmod +x /usr/local/bin/ws-stunnel
 
 # Installing Service

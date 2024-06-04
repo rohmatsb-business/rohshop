@@ -556,7 +556,7 @@ menu
 function updatews(){
 cd
 rm -rf *
-wget https://satantech.serv00.net/arthepat/menu/install-up.sh &> /dev/null
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/menu/install-up.sh &> /dev/null
 chmod +x install_up.sh
 ./install_up.sh
 }
