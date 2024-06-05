@@ -11,7 +11,7 @@ chmod +x /usr/local/bin/ws-dropbear
 cat > /etc/systemd/system/ws-nontls.service << END
 [Unit]
 Description=Python Proxy Mod By SFVPNVPN 
-Documentation=https://t.me/abecasdee13
+Documentation=https://t.me/rohmatsb_business
 After=network.target nss-lookup.target
 
 [Service]
@@ -39,7 +39,7 @@ chmod +x /usr/local/bin/ws-ovpn
 cat > /etc/systemd/system/ws-ovpn.service << END
 [Unit]
 Description=Python Proxy Mod By SFVPN
-Documentation=https://t.me/abecasdee13
+Documentation=https://t.me/rohmatsb_business
 After=network.target nss-lookup.target
 
 [Service]
@@ -66,7 +66,7 @@ chmod +x /usr/local/bin/ws-stunnel
 cat > /etc/systemd/system/ws-stunnel.service << END
 [Unit]
 Description=Python Proxy Mod By SFVPN
-Documentation=https://t.me/abecasdee13
+Documentation=https://t.me/rohmatsb_business
 After=network.target nss-lookup.target
 
 [Service]

@@ -307,15 +307,15 @@ wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/install/rm
 clear
 }
 res2() {
-wget https://raw.githubusercontent.com/RMBL-VPN/v1/main/install/r1.sh && chmod +x cr1.sh && ./per1.sh
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/install/r1.sh && chmod +x cr1.sh && ./per1.sh
 clear
 }
 res3() {
-wget https://raw.githubusercontent.com/RMBL-VPN/v1/main/install/c2.sh && chmod +x c2.sh && ./cr2.sh
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/install/c2.sh && chmod +x c2.sh && ./cr2.sh
 clear
 }
 res4() {
-wget https://raw.githubusercontent.com/RMBL-VPN/v1/main/install/r3.sh && chmod +x r3.sh && ./r3.sh
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/install/r3.sh && chmod +x r3.sh && ./r3.sh
 clear
 }
 clear
@@ -622,7 +622,7 @@ cd
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 >/dev/null 2>&1
 sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
 clear
-wget https://raw.githubusercontent.com/RMBL-ZERO/vip/main/tools.sh &> /dev/null
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/tools.sh &> /dev/null
 chmod +x tools.sh 
 bash tools.sh
 clear
@@ -802,7 +802,7 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 echo "Log All Account " > /etc/log-create-user.log
 fi
 history -c
-serverV=$( curl -sS https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/+versi  )
+serverV=$( curl -sS https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/versi  )
 echo $serverV > /opt/.ver
 aureb=$(cat /home/re_otm)
 b=11

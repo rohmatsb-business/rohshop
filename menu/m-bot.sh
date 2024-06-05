@@ -223,13 +223,13 @@ rm -rf /usr/bin/kyt.zip
 rm -rf /usr/bin/kyt
 sleep 2
 cd /usr/bin
-wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/bot//bot.zip
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/bot/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 clear
-wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/bot//kyt.zip
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/bot/kyt.zip
 unzip kyt.zip
 cd kyt
 pip3 install -r kyt/requirements.txt

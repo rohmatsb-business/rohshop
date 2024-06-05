@@ -307,15 +307,15 @@ wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/install/rm
 clear
 }
 res2() {
-wget https://raw.githubusercontent.com/RMBL-VPN/v1/main/install/r1.sh && chmod +x cr1.sh && ./per1.sh
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/install/r1.sh && chmod +x cr1.sh && ./per1.sh
 clear
 }
 res3() {
-wget https://raw.githubusercontent.com/RMBL-VPN/v1/main/install/c2.sh && chmod +x c2.sh && ./cr2.sh
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/install/c2.sh && chmod +x c2.sh && ./cr2.sh
 clear
 }
 res4() {
-wget https://raw.githubusercontent.com/RMBL-VPN/v1/main/install/r3.sh && chmod +x r3.sh && ./r3.sh
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/install/r3.sh && chmod +x r3.sh && ./r3.sh
 clear
 }
 clear
@@ -697,7 +697,7 @@ wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/install/ud
 clear
 }
 res10() {
-wget https://raw.githubusercontent.com/SatanTech/noobz/main/noobzvpns.zip
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/noobz/noobzvpns.zip
 unzip noobzvpns.zip
 chmod +x noobzvpns/*
 cd noobzvpns
@@ -708,7 +708,7 @@ clear
 }
 
 res11() {
-wget https://raw.githubusercontent.com/SatanTech/hm/main/limit/limit.sh && chmod +x limit.sh && ./limit.sh
+wget https://raw.githubusercontent.com/rohmatsb-business/rohshop/main/bin/limit.sh && chmod +x limit.sh && ./limit.sh
 clear
 }
 
@@ -796,7 +796,7 @@ TEXT="
 <code>EXP SCRIPT : </code><code>$EXP Days</code>
 <code>━━━━━━━━━━━━━━━━━━━━</code>
 <i> Notifikasi Installer Script...</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/abecasdee13"},{"text":"GRUP","url":"https://t.me/satanofficiall"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/rohmatsb_business"},{"text":"GRUP","url":"https://t.me/rohshopofficiall"}]]}'
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 clear
 }
